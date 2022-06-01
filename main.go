@@ -8,7 +8,7 @@ import (
 	"simple-weather-alert-app/services"
 )
 
-const PORT = ":8089"
+const PORT = ":8080"
 
 func main() {
 	weatherRepo := repositories.NewWeatherRepository()
